@@ -1,0 +1,234 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 613 968.7" style="enable-background:new 0 0 613 968.7;" xml:space="preserve">
+	 <defs>
+		<style type="text/css">
+			#layer1{
+				fill:#8DFFD6;
+				stroke:#8DFFD6;
+				stroke-width: 30px;
+				animation-name:layer1;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+			#layer2{
+				fill:#8DFFD6;
+				stroke:#8DFFD6;
+				stroke-width: 15px;
+				animation-name:layer2;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+
+			#layer3{
+				fill:#8DFFD6;
+				stroke:#8DFFD6;
+				stroke-miterlimit:10;
+				animation-name:layer3;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+
+			#layer4{
+				fill:#8DFFD6;
+				stroke:#8DFFD6;
+				stroke-miterlimit:10;
+				animation-name:layer4;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+
+			#layer5{
+				fill:#8DFFD6;
+				stroke:#8DFFD6;
+				stroke-miterlimit:10;
+				animation-name:layer5;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+
+			#layer6{
+				
+				stroke-miterlimit:10;
+				animation-name:layer6;
+				animation-duration: 3s;
+				animation-iteration-count: infinite;
+				animation-timing-function: ease-in-out;
+				animation-direction: alternate;
+			}
+
+
+			@-webkit-keyframes layer1 {
+			from{
+					fill:none;
+					stroke-width: 5px;
+					stroke:#3E9FFF;
+					translateX(0)
+
+					
+				}  
+				to {
+					fill: none;
+					stroke-width: 20px;
+					stroke:#DA727E;
+					transform: translateX(58px)
+					
+				}
+			}
+
+			@-webkit-keyframes layer2 {
+			from{
+					fill:none;
+					stroke:#3E9FFF;
+					stroke-width: 5px;
+					transform:translateX(0)
+
+					
+				}  
+				to {
+					fill: none;
+					stroke:#DA727E;
+					stroke-width: 20px;
+					transform: translateX(-58px)
+					
+				}
+			}
+
+			@-webkit-keyframes layer3 {
+				from{
+					fill:none;
+					stroke:#3E9FFF;
+					stroke-width: 20px;					
+				}  
+				to {
+					fill:none;
+					stroke:#DA727E;
+					stroke-width: 10px;
+					
+				}
+			}
+
+			@-webkit-keyframes layer4 {
+				from{
+					fill:none;
+					stroke:#3E9FFF;
+					stroke-width: 20px;
+					
+				}  
+				to{
+					fill:none;
+					stroke:#DA727E;
+					stroke-width: 10px;	
+				}
+			}
+
+			@-webkit-keyframes layer5 {
+				from{
+					fill:#3E9FFF;
+					stroke:#3E9FFF;
+					stroke-width: 5px;
+					transform:translateY(0)
+				}  
+				to{
+					fill:none;
+					stroke:#DA727E;
+					stroke-width: 20px;	
+					transform:translateY(58px)
+				}
+			}
+			@-webkit-keyframes layer6{
+				from{
+					fill:none;
+					stroke:#3E9FFF;
+					stroke-width: 5px;
+					transform:translateX(0)
+					
+				}  
+				to{
+					fill:none;
+					stroke:#DA727E;
+					stroke-width: 20px;	
+					transform:translateX(-58px)
+				}
+			}
+
+
+
+		</style>
+	 </defs>
+<g id="layer6">
+	<g>
+		<polygon class="st0" points="400.7,802.7 343.7,802.7 315.3,852 343.7,901.4 400.7,901.4 429.1,852 		"/>
+		<polygon class="st0" points="579.5,802.4 522.6,802.4 494.1,851.7 522.6,901.1 579.5,901.1 608,851.7 		"/>
+		<polygon class="st0" points="490.7,752.6 433.7,752.6 405.3,801.9 433.7,851.2 490.7,851.2 519.1,801.9 		"/>
+		<polygon class="st0" points="490.7,646.2 433.7,646.2 405.3,695.5 433.7,744.8 490.7,744.8 519.1,695.5 		"/>
+		<polygon class="st0" points="579.5,698.5 522.6,698.5 494.1,747.8 522.6,797.1 579.5,797.1 608,747.8 		"/>
+		<polygon class="st0" points="400.7,698.5 343.7,698.5 315.3,747.8 343.7,797.1 400.7,797.1 429.1,747.8 		"/>
+		<polygon class="st0" points="490.7,859 433.7,859 405.3,908.3 433.7,957.6 490.7,957.6 519.1,908.3 		"/>
+	</g>
+</g>
+<g id="layer5">
+	<g>
+		<polygon class="st0" points="102.7,800.2 45.8,800.2 17.3,849.5 45.8,898.8 102.7,898.8 131.2,849.5 		"/>
+		<polygon class="st0" points="281.6,799.9 224.6,799.9 196.1,849.2 224.6,898.5 281.6,898.5 310,849.2 		"/>
+		<polygon class="st0" points="192.7,750.1 135.8,750.1 107.3,799.4 135.8,848.7 192.7,848.7 221.2,799.4 		"/>
+		<polygon class="st0" points="192.7,643.6 135.8,643.6 107.3,692.9 135.8,742.3 192.7,742.3 221.2,692.9 		"/>
+		<polygon class="st0" points="281.6,695.9 224.6,695.9 196.1,745.3 224.6,794.6 281.6,794.6 310,745.3 		"/>
+		<polygon class="st0" points="102.7,695.9 45.8,695.9 17.3,745.3 45.8,794.6 102.7,794.6 131.2,745.3 		"/>
+		<polygon class="st0" points="192.7,856.5 135.8,856.5 107.3,905.8 135.8,955.1 192.7,955.1 221.2,905.8 		"/>
+	</g>
+</g>
+<g id="layer4">
+	<g>
+		<polygon class="st0" points="397,485.2 340.1,485.2 311.6,534.5 340.1,583.8 397,583.8 425.5,534.5 		"/>
+		<polygon class="st0" points="575.9,484.9 518.9,484.9 490.5,534.2 518.9,583.5 575.9,583.5 604.3,534.2 		"/>
+		<polygon class="st0" points="487,435 430.1,435 401.6,484.3 430.1,533.6 487,533.6 515.5,484.3 		"/>
+		<polygon class="st0" points="487,328.6 430.1,328.6 401.6,377.9 430.1,427.2 487,427.2 515.5,377.9 		"/>
+		<polygon class="st0" points="575.9,380.9 518.9,380.9 490.5,430.2 518.9,479.5 575.9,479.5 604.3,430.2 		"/>
+		<polygon class="st0" points="397,380.9 340.1,380.9 311.6,430.2 340.1,479.5 397,479.5 425.5,430.2 		"/>
+		<polygon class="st0" points="487,541.4 430.1,541.4 401.6,590.7 430.1,640.1 487,640.1 515.5,590.7 		"/>
+	</g>
+</g>
+<g id="layer3">
+	<g>
+		<polygon class="st0" points="102.7,483.2 45.8,483.2 17.3,532.5 45.8,581.8 102.7,581.8 131.2,532.5 		"/>
+		<polygon class="st0" points="281.6,482.9 224.6,482.9 196.1,532.2 224.6,581.5 281.6,581.5 310,532.2 		"/>
+		<polygon class="st0" points="192.7,433 135.8,433 107.3,482.3 135.8,531.6 192.7,531.6 221.2,482.3 		"/>
+		<polygon class="st0" points="192.7,326.6 135.8,326.6 107.3,375.9 135.8,425.2 192.7,425.2 221.2,375.9 		"/>
+		<polygon class="st0" points="281.6,378.9 224.6,378.9 196.1,428.2 224.6,477.5 281.6,477.5 310,428.2 		"/>
+		<polygon class="st0" points="102.7,378.9 45.8,378.9 17.3,428.2 45.8,477.5 102.7,477.5 131.2,428.2 		"/>
+		<polygon class="st0" points="192.7,539.4 135.8,539.4 107.3,588.7 135.8,638.1 192.7,638.1 221.2,588.7 		"/>
+	</g>
+</g>
+<g id="layer2">
+	<g>
+		<polygon class="st0" points="396.4,167.6 339.5,167.6 311,216.9 339.5,266.2 396.4,266.2 424.9,216.9 		"/>
+		<polygon class="st0" points="575.3,167.3 518.4,167.3 489.9,216.6 518.4,265.9 575.3,265.9 603.8,216.6 		"/>
+		<polygon class="st0" points="486.4,117.5 429.5,117.5 401,166.8 429.5,216.1 486.4,216.1 514.9,166.8 		"/>
+		<polygon class="st0" points="486.4,11.1 429.5,11.1 401,60.4 429.5,109.7 486.4,109.7 514.9,60.4 		"/>
+		<polygon class="st0" points="575.3,63.4 518.4,63.4 489.9,112.7 518.4,162 575.3,162 603.8,112.7 		"/>
+		<polygon class="st0" points="396.4,63.4 339.5,63.4 311,112.7 339.5,162 396.4,162 424.9,112.7 		"/>
+		<polygon class="st0" points="486.4,223.9 429.5,223.9 401,273.2 429.5,322.5 486.4,322.5 514.9,273.2 		"/>
+	</g>
+</g>
+<g id="layer1">
+	<g>
+		<polygon class="st0" points="102.1,166.8 45.2,166.8 16.7,216.1 45.2,265.4 102.1,265.4 130.6,216.1 		"/>
+		<polygon class="st0" points="281,166.5 224.1,166.5 195.6,215.8 224.1,265.1 281,265.1 309.5,215.8 		"/>
+		<polygon class="st0" points="192.1,116.6 135.2,116.6 106.7,165.9 135.2,215.2 192.1,215.2 220.6,165.9 		"/>
+		<polygon class="st0" points="192.1,10.2 135.2,10.2 106.7,59.5 135.2,108.8 192.1,108.8 220.6,59.5 		"/>
+		<polygon class="st0" points="281,62.5 224.1,62.5 195.6,111.8 224.1,161.1 281,161.1 309.5,111.8 		"/>
+		<polygon class="st0" points="102.1,62.5 45.2,62.5 16.7,111.8 45.2,161.1 102.1,161.1 130.6,111.8 		"/>
+		<polygon class="st0" points="192.1,223 135.2,223 106.7,272.3 135.2,321.7 192.1,321.7 220.6,272.3 		"/>
+	</g>
+</g>
+</svg>
