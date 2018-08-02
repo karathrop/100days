@@ -1,0 +1,163 @@
+body {
+	background:  #FED8DA;
+}
+
+#spinner1 {
+  position: absolute;
+  top: 110px;
+  left: 100px;
+  width: 30px;
+  height: 100px;
+  background-color: #FB7684;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner2 {
+  position: absolute;
+  top: 110px;
+  left: 250px;
+  width: 30px;
+  height: 100px;
+  border: 3px dotted #FB7684;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner3{
+  position: absolute;
+  top: 110px;
+  left: 400px;
+  width: 30px;
+  height: 100px;
+  background-color: #FB7684;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner4 {
+position: absolute;
+  top: 110px;
+  left: 550px;
+  width: 30px;
+  height: 100px;
+  border: 3px dotted #FB7684;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+
+#spinner5 {
+position: absolute;
+  top: 280px;
+  left: 100px;
+  width: 30px;
+  height: 100px;
+  border: 3px dotted #364C69;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner6 {
+position: absolute;
+  top: 280px;
+  left: 250px;
+  width: 30px;
+  height: 100px;
+  background-color: #364C69;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner7 {
+position: absolute;
+  top: 280px;
+  left: 400px;
+  width: 30px;
+  height: 100px;
+  border: 3px dotted #364C69;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner8 {
+position: absolute;
+  top: 280px;
+  left: 550px;
+  width: 30px;
+  height: 100px;
+  background-color: #364C69;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner9 {
+position: absolute;
+  top: -60px;
+  left: 100px;
+  width: 30px;
+  height: 100px;
+  border: 3px dotted #72C6CD;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+#spinner10 {
+position: absolute;
+  top: -60px;
+  left: 250px;
+  width: 30px;
+  height: 100px;
+  background-color: #72C6CD;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  
+}
+
+#spinner11 {
+position: absolute;
+  top: -60px;
+  left: 400px;
+  width: 30px;
+  height: 100px;
+  /*background-color: #72C6CD;*/
+  border: 3px dotted #72C6CD;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+ 
+}
+
+#spinner12 {
+position: absolute;
+  top: -60px;
+  left: 550px;
+  width: 30px;
+  height: 100px;
+  background-color: #72C6CD;
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+ 
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { 
+  	-webkit-transform: perspective(360px) 
+  	background-color: #72C6CD;
+  }
+
+  50% {
+  	 -webkit-transform: perspective(360px) rotateY(180deg) rotateX(180deg)
+  	}
+  100% { -webkit-transform: perspective(360px) rotateY(360deg)  rotateX(360deg)
+  	background-color: #364C69;
+   }
+}

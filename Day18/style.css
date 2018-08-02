@@ -1,0 +1,114 @@
+body {
+    background: #F1D8D5
+}
+#ball1 {
+    background: #749FE1;
+    position: absolute;
+    top: 30px;
+}
+
+
+#ball2 {
+    background: #1ACCE6;
+    position: absolute;
+    top: 60px;
+}
+
+#ball3 {
+    background: #FD7E79;
+    position: absolute;
+    top: 90px;
+}
+
+
+#ball4 {
+    background: #749FE1;
+    position: absolute;
+    top: 120px;
+}
+
+
+#ball5 {
+    background: #1ACCE6;
+    position: absolute;
+    top: 150px;
+}
+
+#ball6 {
+    background: #FD7E79;
+    position: absolute;
+    top: 180px;
+}
+
+#ball7 {
+    background: #749FE1;
+    position: absolute;
+    top: 210px;
+}
+
+#ball8 {
+    background: #1ACCE6;
+    position: absolute;
+    top: 240px;
+}
+
+#ball9 {
+    background: #FD7E79;
+    position: absolute;
+    top: 270px;
+}
+
+#ball10 {
+    background: #749FE1;
+    position: absolute;
+    top: 300px;
+}
+
+#ball11 {
+    background: #1ACCE6;
+    position: absolute;
+    top: 330px;
+}
+
+#ball12 {
+    background: #FD7E79;
+    position: absolute;
+    top: 360px;
+}
+
+
+
+.ball {
+    position: absolute;   
+    border-radius: 0px;
+    height: 30px;
+    width: 30px;
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-duration: 3s;
+    timing-function: ease-out;
+}
+
+@-webkit-keyframes bounce {
+    from { left: 10px; bottom: 30px; height: 25px; }
+    10% { left: 25px; bottom: 0px; height: 5px; }
+    20% { left: 40px; bottom: 35px; height: 25px; }
+    30% { left: 65px; bottom: 0px; height: 5px; }
+    40% { left: 80px; bottom: 30px; height: 25px; }
+    50% { left: 105px; bottom: 0px; height: 5px; }
+    60% { left: 125px; bottom: 30px; height: 25px; }
+    70% { left: 145px; bottom: 0px; height: 5px; }
+    80% { left: 165px; bottom: 40px; width: 60px; height: 25px; }
+    90% { left: 185px; bottom: 0px; width: 150px; height: 5px; }
+    100% { left: 205px; bottom: 50px; width: 200px; height: 25px; }
+}

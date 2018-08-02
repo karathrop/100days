@@ -1,0 +1,111 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 276.2 164.9" style="enable-background:new 0 0 276.2 164.9;" xml:space="preserve">
+
+		 <defs>
+			<style type="text/css">
+				#layer1{
+					fill:#A1C3BB;
+					stroke:#F94EA6;
+					stroke-width:2;
+					animation: layer1 5s ease-in-out alternate infinite;
+					stroke-dasharray: 3000;
+					stroke-dashoffset: 3000;
+					animation-iteration-count: infinite;
+					
+				}
+
+				@-webkit-keyframes layer1 {
+					to {
+					    stroke-dashoffset: 0;
+					    fill: #F94EA6;
+					    <!-- stroke-width: 10; -->
+					  }
+				}
+
+				#layer2{
+					fill:#F9DAD8;
+					stroke: #6059CB;
+					stroke-width:2;	
+					animation: layer2 5s ease-in-out alternate infinite;
+					stroke-dasharray: 1000;
+					stroke-dashoffset: -2000;
+					animation-iteration-count: infinite;
+						
+				}
+
+				@-webkit-keyframes layer2 {
+					to {
+					    stroke-dashoffset: 0;
+					    fill:  #6059CB;
+					<!--     stroke-width: 10; -->
+					  }
+				}
+
+				#layer3{
+					fill:#A1C3BB;
+					stroke: #FECB08;
+					stroke-width:2;	
+					animation: layer3 5s ease-in-out alternate infinite;
+					stroke-dasharray: 3000;
+					stroke-dashoffset: 3000;
+					animation-iteration-count: infinite;
+				}
+
+				@-webkit-keyframes layer3 {
+					to {
+					    stroke-dashoffset: 0;
+					    fill: #FECB08;
+					    <!-- stroke-width: 10; -->
+					  }
+				}
+
+				#layer4{
+					fill:#F9DAD8;
+					stroke:#A644E5;
+					stroke-width:2;
+					animation: layer4 5s ease-in-out alternate infinite;
+					stroke-dasharray: 1000;
+					stroke-dashoffset: -2000;
+					animation-iteration-count: infinite;
+					
+				}
+
+				@-webkit-keyframes layer4 {
+					to {
+					    stroke-dashoffset: 0;
+					    fill:#A644E5;
+					  }
+				}
+			</style>
+		</defs>
+	<g id="layer1">
+		<g>
+			<path class="st0" d="M15.8,15.3c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14
+				c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14s13.4,14,26.8,14"/>
+		</g>
+	</g>
+	<g id="layer2">
+		<g>
+			<path class="st0" d="M15.8,47.4c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22
+				c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22
+				c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,11,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,11,22
+				c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,11-22c5.5,0,5.5,22,11,22c5.5,0,5.5-22,11-22c5.5,0,5.5,22,11,22
+				c5.5,0,5.5-22,11-22"/>
+		</g>
+	</g>
+	<g id="layer3">
+		<g>
+			<path class="st0" d="M15.8,89.8c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14
+				c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14c13.4,0,13.4,14,26.8,14c13.4,0,13.4-14,26.8-14s13.4,14,26.8,14"/>
+		</g>
+	</g>
+	<g id="layer4">
+		<g>
+			<path class="st0" d="M15.8,120.3c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22
+				c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22
+				c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,11,22c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,11,22
+				c5.5,0,5.5-22,10.9-22c5.5,0,5.5,22,10.9,22c5.5,0,5.5-22,11-22c5.5,0,5.5,22,11,22c5.5,0,5.5-22,11-22c5.5,0,5.5,22,11,22
+				c5.5,0,5.5-22,11-22"/>
+		</g>
+	</g>
+</svg>

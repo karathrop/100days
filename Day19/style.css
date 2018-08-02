@@ -1,0 +1,134 @@
+body {
+    background: #292B65;
+}
+#ball1 {
+    background: #EC627C;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 50px;
+    top: 30px;
+}
+
+#ball2 {
+    background: #F4EC5C;
+    position: absolute;
+    top: 30px;
+    height: 60px;
+    width: 40px;
+    left: 50px;
+   
+}
+
+#ball3 {
+    background: #03A9F5;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 150px;
+    top: 30px;
+}
+
+#ball4 {
+    background: #BF61D6;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 150px;
+    top: 30px;
+}
+
+#ball5 {
+    background: #EC627C;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 250px;
+    top: 30px;
+}
+
+#ball6 {
+    background: #F4EC5C;
+    position: absolute;
+    top: 30px;
+    height: 60px;
+    width: 40px;
+    left: 250px;
+   
+}
+
+#ball7 {
+    background: #03A9F5;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 350px;
+    top: 30px;
+}
+
+#ball8 {
+    background: #BF61D6;
+    position: absolute;
+    height: 60px;
+    width: 40px;
+    left: 350px;
+    top: 30px;
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-duration: 3s;
+    timing-function: ease-out;
+}
+
+@-webkit-keyframes bounce {
+    from { 
+    	top: 10px;
+    	height: 60px;
+    	width: 40px; 
+    }
+   
+    
+    to { 
+    	top: 500px;
+    	height: 40px;
+    	width: 100px;
+    }
+}
+
+.bop {
+    -webkit-animation-name: bop;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+    animation-name: bop;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-duration: 3s;
+    timing-function: ease-out;
+}
+
+@-webkit-keyframes bop {
+    from { 
+    		top: 500px; 
+    		height: 60px;
+    		width: 40px;
+    	}
+   
+    
+    to { 
+    	top: 10px;
+    	height: 40px;
+    	width: 100px;
+    }
+}

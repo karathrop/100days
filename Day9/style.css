@@ -1,0 +1,271 @@
+body {
+  background:  #565BA8;
+}
+
+#circle1 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 2em;
+  height: 3em;
+}
+
+
+#circle2 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 1.5em;
+  height: 3em;
+}
+
+
+#circle3 {
+  position: absolute;
+  top: 100px;
+  left: 550px; 
+  width: 3em;
+  height: 3em;
+}
+
+
+#circle4 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 3em;
+  height: 3em;
+}
+
+#circle5 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  width: 3em;
+  height: 3em;
+}
+
+#circle6 {
+  position: absolute;
+  top: 200px;
+  left: 550px;
+  width: 3em;
+  height: 3em;
+}
+
+#circle7 {
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  width: 3em;
+  height: 3em;
+}
+
+#circle8 {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  width: 3em;
+  height: 3em;
+}
+
+#circle9 {
+  position: absolute;
+  top: 300px;
+  left: 550px;
+ 
+  width: 3em;
+  height: 3em;
+}
+.ml8 .circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+
+#circle1 .circle-dark-dashed {
+   border-radius: 3em;
+   left: 82px;
+   background-color: #6C5896;
+   border: 3px dashed #9F9FCC;
+   width: 2.5em;
+   height: 2.5em;
+   z-index: 1;
+}
+
+#circle1 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+    z-index: -1;
+}
+
+#circle2 .circle-dark-dashed {
+   border-radius: 3em; 
+   left: 82px;
+   top: 0px;
+   background-color: #6C5896;
+   border: 3px dashed #9F9FCC;
+   width: 2.5em;
+   height: 2.5em;
+}
+
+#circle2 .circle-dark {
+   border-radius: 0em; 
+   left: 30px;
+   background-color: transparent;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+}
+
+#circle3 .circle-dark-dashed {
+   border-radius: 2em;
+   left: 82px;
+   background-color: #6C5896;
+   border: 3px dashed #9F9FCC;
+   width: 2.5em;
+   height: 2.5em;
+   z-index: 0;
+}
+
+#circle3 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: tr;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+   z-index: 0;
+}
+
+#circle4 .circle-dark-dashed {
+   border-radius: 0em;
+   left: 78px;
+   background-color: transparent;
+   border: 3px dashed #E0E8E4;
+   width: 3em;
+   height: 5em;
+    z-index:1;
+}
+
+#circle4 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px solid #F9FCFD;
+   width: 9em;
+   height: 6em;
+    z-index:-1;
+
+}
+
+#circle5 .circle-dark-dashed {
+   border-radius: 0em;
+   left: 78px;
+   background-color: transparent;
+   border: 3px dashed #E0E8E4;
+   width: 3em;
+   height: 5em;
+   z-index: 1;
+}
+
+#circle5 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px solid #F9FCFD;
+   width: 9em;
+   height: 6em;
+    z-index: 0;
+}
+
+#circle6 .circle-dark-dashed {
+   border-radius: 0em;
+   left: 78px;
+   background-color: transparent;
+   border: 3px dashed #E0E8E4;
+   width: 3em;
+   height: 5em;
+   z-index: 1;
+   
+}
+
+#circle6 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px solid #F9FCFD;
+   width: 9em;
+   height:6em;
+  
+    
+}
+
+#circle7 .circle-dark-dashed {
+   border-radius: 0em;
+   left: 84px;
+   background-color: #CA99C7;
+   border: 3px solid #CA99C7;
+   width: 2.5em;
+   height: 2.5em;
+   
+}
+
+#circle7 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+   z-index: -1;
+    }
+
+#circle8 .circle-dark-dashed {
+   border-radius: 0em;
+   left: 84px;
+   background-color: #CA99C7;
+   border: 3px solid #CA99C7;
+   width: 2.5em;
+   height: 2.5em;
+   
+}
+
+#circle8 .circle-dark {
+   border-radius: 0em; 
+   left: 30px;
+   background-color: transparent;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+   z-index: -1;
+ }
+
+#circle9 .circle-dark-dashed {
+    border-radius: 0em;
+    left: 84px;
+    background-color: #CA99C7;
+    border: 3px solid #CA99C7;
+    width: 2.5em;
+    height: 2.5em;
+    
+}
+
+#circle9 .circle-dark {
+   border-radius: 0em;
+   left: 30px;
+   background-color: transparent;
+   border: 3px dotted #F9FCFD;
+   width: 9em;
+   height: 10em;
+   z-index: -1;
+    
+}

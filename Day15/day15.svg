@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.8 59.17">
+	<defs>
+		<style>
+			#layer1{
+				fill:#7CC7C9;
+				animation: cir1 1.5s ease-in-out alternate infinite;
+			}
+
+			@keyframes cir1 {
+                from {
+                    opacity:.75;
+                }
+                to { 
+                    opacity:1; 
+                    fill: #FBE668;           
+                  }
+             }
+
+
+			.line1 {
+				stroke: #499EF8;
+				stroke-dasharray: 1000;
+  				stroke-dashoffset: 1000;
+  				animation: layer1 1s ease-in-out alternate infinite;
+			}
+
+			 @keyframes layer1 {
+                from {
+                    stroke-width:1;
+                    opacity:0;
+                }
+                to {
+                    
+                    stroke-dashoffset: 0;
+                    stroke-width: 3;    
+                    opacity:1;    
+                    stroke: #D430CC;        
+                  }
+                }
+
+			.line2 {
+				stroke: #FD1086;
+				stroke-dasharray: 1000;
+  				stroke-dashoffset: 1000;
+  				animation: layer2 .5s ease-in-out alternate infinite;
+			}
+			 
+			 @keyframes layer2 {
+                from {
+                    stroke-width:1;
+ 					opacity:1;    
+                }
+                to {
+                    
+                    stroke-dashoffset: 0;
+                    stroke-width: 3;
+                    opacity:0; 
+                    stroke: #56E4A8;     
+                  }
+                }
+		</style>
+	</defs>
+
+	<title>day15</title>
+		<g id="layer1" data-name="Layer 1"><circle class="cls-1" cx="34.64" cy="29.32" r="10.93"/>
+		</g>
+
+		<g id="layer2" data-name="Layer 2"><line class="line1" x1="45.81" y1="20.98" x2="59.73" y2="7.06"/>
+		</g>
+
+		<g id="layer3" data-name="Layer 3"><line class="line1" x1="46.69" y1="36.32" x2="59.17" y2="50.3"/>
+		</g>
+
+		<g id="layer4" data-name="Layer 4"><line class="line2" x1="34.64" y1="43.25" x2="34.64" y2="59.17"/>
+		</g>
+
+		<g id="Layer5" data-name="Layer 5"><line class="line1" x1="23.36" y1="37.5" x2="6.51" y2="51.21"/>
+		</g>
+
+		<g id="Layer6" data-name="Layer 6"><line class="line2" x1="34.64" y1="15.38" x2="34.64"/></g>
+
+		<g id="Layer7" data-name="Layer 7">
+			<line class="line1" x1="22.92" y1="21.79" x2="5.92" y2="7.69"/>
+		</g>
+
+		<g id="Layer8" data-name="Layer 8"><line class="line2" x1="48.58" y1="29.32" x2="69.8" y2="29.32"/>
+		</g>
+
+		<g id="Layer9" data-name="Layer 9"><line class="line2" x1="20.71" y1="29.32" y2="29.32"/>
+
+		</g>
+
+
+
+
+
+</svg>

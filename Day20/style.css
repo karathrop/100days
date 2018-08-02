@@ -1,0 +1,210 @@
+body {
+    background: #6A96E2;
+}
+
+#one {
+    background: #FCD8F8;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    height: 60px;
+    width: 40px;  
+}
+
+#two {
+     background: #85C4C7;
+     position: absolute;
+     top: 10px;
+     left: 200px;
+     height: 60px;
+     width: 40px;
+}
+
+#three {
+    background: #FCD8F8;
+    position: absolute;
+    top: 10px;
+    left: 300px;
+    height: 60px;
+    width: 40px;
+}
+
+#four {
+    background: #85C4C7;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    height: 60px;
+    width: 40px;
+}
+
+#five {
+    background: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 60px;
+    width: 40px;
+}
+
+#six {
+    background: #9DDCF9;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    height: 60px;
+    width: 40px;
+}
+
+#seven {
+    background: #9DDCF9;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    height: 60px;
+    width: 40px;
+}
+
+#eight {
+    background: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    height: 60px;
+    width: 40px;
+}
+.boop {
+    -webkit-animation-name: boop;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+}
+
+@-webkit-keyframes boop {
+    to { 
+      
+        width: 200px;
+        top: 80px;
+        left: 500px;
+    }
+}
+
+.boop2 {
+    -webkit-animation-name: boop2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+}
+
+@-webkit-keyframes boop2 {
+    to { 
+      
+        width: 200px;
+        top: 160px;
+        left: 500px;
+    }
+}
+
+.bang {
+    -webkit-animation-name: bang;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bang {
+    to { 
+        top: 80px;
+        left: 500px;
+    }
+}
+
+.bang2 {
+    -webkit-animation-name: bang2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bang2 {
+    to { 
+        top: 80px;
+        left: 660px;
+    }
+}
+
+.bump {
+    -webkit-animation-name: bump;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bump {
+    
+    to { 
+        width: 200px;
+        top: 240px;
+        left: 500px;
+    }
+}
+
+.bump2 {
+    -webkit-animation-name: bump2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bump2 {
+    
+    to { 
+        width: 200px;
+        top: 320px;
+        left: 500px;
+    }
+}
+
+.bing {
+    -webkit-animation-name: bing;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bing { 
+    to { 
+        top: 240px;
+        left: 500px;
+    }
+}
+
+
+.bing2 {
+    -webkit-animation-name: bing2;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-delay: 0;
+    -webkit-animation-duration: 3s;
+    -webkit-timing-function: ease-out;
+    
+}
+
+@-webkit-keyframes bing2 { 
+    to { 
+        top: 240px;
+        left: 660px;
+        z-index: 1;
+    }
+}

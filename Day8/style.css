@@ -1,0 +1,115 @@
+body {
+  background: #FFFFFF;
+}
+#circle1 {
+  color: #D9C4EA;
+  font-size: 6em;
+  font-weight: 700;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-family: 'Vidaloka', serif;
+}
+
+#circle2 {
+  color: #8598F2;
+  font-size: 6em;
+  position: absolute;
+  left: 275px;
+  top: 50px;
+  font-family: 'Vidaloka', serif;
+}
+
+#circle3 {
+  position: absolute;
+  color: #575DA0;
+  font-size: 6em;
+  top: 50px;
+  left: 500px;
+  font-weight: 700;
+  font-family: 'Vidaloka', serif;
+
+}
+
+#circle4 {
+  position: absolute;
+  color: #D9C4EA;
+  font-size: 6em;
+  top: 300px;
+  left: 50px;
+  font-family: 'Vidaloka', serif;
+
+}
+
+#circle5 {
+  position: absolute;
+  color: #8598F2;
+  font-size: 6em;
+  top: 300px;
+  left: 275px;
+  font-weight: 700;
+  font-family: 'Vidaloka', serif;
+  
+}
+
+#circle6 {
+  color: #575DA0;
+  font-size: 6em;
+  position: absolute;
+  left: 500px;
+  top: 300px;
+  font-family: 'Vidaloka', serif;
+}
+
+#circle7 {
+  position: absolute;
+  font-size: 6em;
+  top: 550px;
+  left: 50px;
+  color: #D9C4EA;
+  font-weight: 700;
+  font-family: 'Vidaloka', serif;
+
+}
+
+#circle8 {
+  position: absolute;
+  font-size: 6em;
+  top: 550px;
+  left: 275px;
+  color: #8598F2;
+  font-family: 'Vidaloka', serif;
+
+}
+
+
+#circle9 {
+  position: absolute;
+  font-size: 6em;
+  top: 550px;
+  left: 500px;
+  color: #575DA0;
+  font-weight: 700;
+  font-family: 'Vidaloka', serif;
+
+}
+.circle.letters-container { 
+  height: 1em;
+}
+
+.circle .letters {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  /*line-height: 0.7em;*/
+  /*right: -0.12em;*/
+ /* top: -0.2em;*/
+}
+
+.circle .bang {
+  font-size: 1.5em;
+  top: auto;
+ /* left: -0.06em;*/
+}
+
+
