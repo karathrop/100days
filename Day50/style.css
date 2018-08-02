@@ -1,0 +1,102 @@
+
+body {
+  background: #1F8BE1;    
+}
+  
+  #shape1 {
+    background: #89B8F1;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:100px;
+    left:200px;
+    animation: move3 2s infinite alternate;
+  }
+
+  #shape2 {
+    background: #D6DEF6;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:100px;
+    left:300px;
+    animation: move3 4s infinite alternate;
+  }
+  
+  #shape3 {
+    background: #89B8F1;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:100px;
+    left:400px;
+    animation: move3 2s infinite alternate;
+  }
+
+  #shape4 {
+    background: #D6DEF6;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:100px;
+    left:500px;
+    animation: move3 4s infinite alternate;
+  }
+
+  #shape5 {
+    background: #D6DEF6;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:200px;
+    left:200px;
+    animation: move3 4s infinite alternate;
+  }
+
+  #shape6 {
+    background: #89B8F1 ;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:200px;
+    left:300px;
+    animation: move3 2s infinite alternate;
+  }
+  
+  #shape7 {
+    background: #FECC6F;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:200px;
+    left:400px;
+    animation: move3 4s infinite alternate;
+  }
+
+  #shape8 {
+    background: #89B8F1;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:200px;
+    left:500px;
+    animation: move3 2s infinite alternate;
+  }
+
+@keyframes move2 {
+  100% {
+    transform: scale(2);
+    
+  }
+}
+
+@keyframes move3 {
+  50% {
+    transform: scale(4);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+
+}
+
