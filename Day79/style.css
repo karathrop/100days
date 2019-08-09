@@ -1,0 +1,125 @@
+
+body {
+  background-color: #062A6A;
+}
+
+
+.submarine-wrapper {
+  height: 300px;
+  width: 300px;
+  padding: 30px 50px 30px 150px;
+  margin: 0 auto 0 auto;
+}
+
+#helix1 {
+  position: absolute;
+  top: 200px;
+  left:100px;
+}
+
+#helix2 {
+  position: absolute;
+  top: 200px;
+  left:200px;
+}
+
+#helix3 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+#helix4 {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+#helix5 {
+  position: absolute;
+  top: 200px;
+  left:500px;
+}
+
+#helix6 {
+  position: absolute;
+  top: 200px;
+  left:600px;
+}
+
+#helix7 {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+#helix8 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.helix {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 173.2px 100px 0 100px;
+  border-color: #007bff transparent transparent transparent;
+  animation: triChange1 3s ease-in-out infinite alternate;
+}
+
+.helix2 {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 100px 100px 0 0;
+  opacity: .6;
+  border-color: #986BDC transparent transparent transparent;
+  animation: triChange2 3s ease-in-out infinite alternate;
+}
+
+@keyframes triChange1 {
+  30%{  
+    border-width: 0 100px 100px 0;
+    border-color: transparent #DE85D2 transparent transparent;
+  }
+  60%{  
+    border-width: 0 0 100px 100px;
+    border-color: transparent transparent #44D5D5 transparent;
+  }
+  100%{
+    border-width: 100px 0 0 100px;
+    border-color: transparent transparent transparent #986BDC;
+  }
+}
+
+@keyframes triChange2 {
+  30%{  
+    border-width: 0 100px 100px 0;
+    border-color: transparent #44D5D5 transparent transparent;
+  }
+  60%{  
+    border-width: 0 0 100px 100px;
+    border-color: transparent transparent #DE85D2 transparent;
+  }
+  100%{
+    border-width: 100px 0 0 100px;
+    border-color: transparent transparent transparent #9AEBEE;
+  }
+}
+
+@keyframes helix-movement {
+  100% {
+    background: linear-gradient(to left, #00c3ff 40%, #ffff1c 40%);
+    transform: rotate(360deg);
+    background-size: 10% 40px;
+  }
+}
+
+
+@keyframes helix-movement2 {
+  100% {
+    background: linear-gradient(to right, #f4c4f3 40%, #fc67fa 40%);
+    transform: rotate(-360deg);
+    background-size: 10% 40px;
+  }
+}

@@ -1,0 +1,21 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100.7 27.2" style="enable-background:new 0 0 100.7 27.2;" xml:space="preserve">
+	 <defs>
+		<style type="text/css">
+			.st0{
+				fill:none;
+				stroke:blue;
+				stroke-miterlimit:10;
+				}
+		</style>
+	</defs>
+		<g id="layer1">
+			<polygon class="st0" x="10" y="10" points="15.6,4.3 4.4,13.9 15.6,22.5 27.2,13.4 	"/>
+		</g>
+		<g id="layer2">
+			<polygon class="st0" points="1,2 	"/>
+		</g>
+		<g id="layer3">
+			<polygon class="st0" points="84.1,4.3 72.9,13.9 84.1,22.5 95.7,13.4 	"/>
+		</g>
+</svg>

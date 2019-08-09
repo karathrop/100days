@@ -1,0 +1,173 @@
+body {
+  background: #560769;
+  
+}
+
+
+/*.element {
+
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: skew 2s infinite;
+  animation-direction: alternate;
+  opacity: .5;
+  background-color: #BF3BE8;
+}
+
+
+.element2 {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  padding: 1px;
+  margin-right: 5px;
+  margin-left: 5px;
+  animation: skew2 2s infinite;
+  animation-direction: alternate;
+  opacity: .6;
+  background-color: #FD7CFE;
+}*/
+
+.element {
+  height: 50px;
+  width: 50px;
+  background: #E10844;
+  animation: change1 2s infinite;
+  animation-direction: alternate;
+}
+
+.element2 {
+  height: 50px;
+  width: 50px;
+  background: #FEFEFD;
+  animation: change2 2s infinite;
+  animation-direction: alternate;
+}
+
+#rec1{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+#rec2{
+  position: absolute;
+  top: 100px;
+  left: 180px;
+}
+
+#rec3{
+  position: absolute;
+  top: 100px;
+  left: 260px;
+}
+
+#rec4{
+  position: absolute;
+  top: 100px;
+  left: 340px;
+}
+
+#rec5{
+  position: absolute;
+  top: 180px;
+  left: 100px;
+}
+
+#rec6{
+  position: absolute;
+  top: 180px;
+  left: 180px;
+}
+
+#rec7{
+  position: absolute;
+  top: 180px;
+  left: 260px;
+}
+
+#rec8{
+  position: absolute;
+  top: 180px;
+  left: 340px;
+}
+
+#rec9{
+  position: absolute;
+  top: 260px;
+  left: 100px;
+}
+
+#rec10{
+  position: absolute;
+  top: 260px;
+  left: 180px;
+}
+
+#rec11{
+ /* background-color: #D7316C;*/
+  position: absolute;
+  top: 260px;
+  left: 260px;
+}
+
+#rec12{
+  /*background-color: #3FA9F4;*/
+  position: absolute;
+  top: 260px;
+  left: 340px;
+}
+
+#rec13{
+  position: absolute;
+  top: 340px;
+  left: 100px;
+}
+
+#rec14{
+  position: absolute;
+  top: 340px;
+  left: 180px;
+}
+
+#rec15{
+  position: absolute;
+  top: 340px;
+  left: 260px;
+}
+
+#rec16{
+  position: absolute;
+  top: 340px;
+  left: 340px;
+}
+@keyframes change1 {
+  25% {
+    height: 20px;
+  }
+  50% {
+    background: #9A0E59;
+
+  }
+  100% {
+    background: #F7B5C5;
+
+  }
+}
+
+@keyframes change2 {
+  50% {
+    background: #F7B5C5;
+  }
+  100% {
+    background: #9A0E59;
+    height: 20px;
+  }
+body, html {
+  height: 100%;
+}
+

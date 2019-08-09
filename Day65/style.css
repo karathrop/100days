@@ -1,0 +1,236 @@
+body {
+  /*animation: changeBG 5s ease-in-out infinite alternate;*/
+  background-color: #2B274B;
+}
+
+@keyframes changeBG {
+  0% {
+    background-color: #F6F39A;
+  }
+  25% {
+    background-color: #F3904F;
+  }
+  50% {
+    background-color: #AC629A;
+  }
+  100% {
+    background-color: #2B274B;
+  }
+}
+
+#shape1 {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid  #F6F39A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+#shape2 {
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape3 {
+  position: absolute;
+  top: 260px;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+
+#shape4 {
+  position: absolute;
+  top: 340px;
+  left: 100px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape5 {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape6 {
+  position: absolute;
+  top: 180px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+#shape7 {
+  position: absolute;
+  top: 260px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+
+#shape8 {
+  position: absolute;
+  top: 340px;
+  left: 200px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+#shape9 {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid  #F6F39A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+#shape10 {
+  position: absolute;
+  top: 180px;
+  left: 300px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape11 {
+  position: absolute;
+  top: 260px;
+  left: 300px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+
+#shape12 {
+  position: absolute;
+  top: 340px;
+  left: 300px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape13 {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+#shape14 {
+  position: absolute;
+  top: 180px;
+  left: 400px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+#shape15 {
+  position: absolute;
+  top: 260px;
+  left: 400px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #F6F39A;
+  animation: change2 2s ease-in-out infinite alternate;
+}
+
+
+#shape16 {
+  position: absolute;
+  top: 340px;
+  left: 400px;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #AC629A;
+  animation: change1 2s ease-in-out infinite alternate;
+}
+
+
+@keyframes change1 {
+  50% {
+    transform: rotateZ(30deg);
+  }
+  100% {
+    transform: scale(2);
+    transform: rotateZ(-30deg);
+  }
+}
+
+@keyframes change2 {
+  50% {
+    transform: rotateZ(-30deg);
+  }
+  100% {
+    transform: scale(2);
+    transform: rotateZ(30deg);
+  }
+}

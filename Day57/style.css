@@ -1,0 +1,123 @@
+
+body {
+  background:  #47D6D3;    
+}
+  #line1 {
+    position: absolute;
+    fill: none;
+    border:5px dashed #D658FC;
+    width: 100px;
+    height: 100px;
+    top:160px;
+    left:155px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line2 {
+    position: absolute;
+    fill: none;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top:130px;
+    left:125px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+  
+  #line3 {
+    position: absolute;
+    fill: none;
+    border:5px dashed #D658FC;
+    width: 100px;
+    height: 100px;
+    top:160px;
+    left:405px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line4 {
+    position: absolute;
+    fill: white;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top:130px;
+    left:375px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line5 {
+    position: absolute;
+    fill: none;
+    border:5px dashed #D658FC;
+    width: 100px;
+    height: 100px;
+    top:160px;
+    left:655px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line6 {
+    position: absolute;
+    fill: none;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top:130px;
+    left:625px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line7 {
+    position: absolute;
+    fill: none;
+    border:5px dashed #D658FC;
+    width: 100px;
+    height: 100px;
+    top:160px;
+    left:905px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line8 {
+    position: absolute;
+    fill: none;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top:130px;
+    left:875px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+@keyframes move1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:15px solid #D9E7E7;
+      transform:  rotate(180deg);
+      transform: scale(1.5);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:10px dashed #E1D7F2;
+      transform:  rotate(-180deg);
+      border-radius: 100px;
+  }
+}
+
+

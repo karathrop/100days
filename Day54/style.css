@@ -1,0 +1,172 @@
+
+body {
+  background:  #262E42;    
+}
+  #line1 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:100px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line2 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:100px;
+    animation: move2 3s infinite alternate;
+  }
+  
+    #line3 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:190px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line4 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:190px;
+    animation: move2 3s infinite alternate;
+  }
+
+  #line5 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:280px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line6 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:100px;
+    left:280px;
+    animation: move2 3s infinite alternate;
+  }
+
+  #line7 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:100px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line8 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:100px;
+    animation: move2 3s infinite alternate;
+  }
+  
+  #line9 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:190px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line10 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:190px;
+    animation: move2 3s infinite alternate;
+  }
+
+  #line11 {
+    position: absolute;
+    background: #F1EDE3;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:280px;
+    animation: move1 3s infinite alternate;
+  }
+
+  #line12 {
+    position: absolute;
+    background: #A0BFB6;
+    width: 90px;
+    height: 30px;
+    top:200px;
+    left:280px;
+    animation: move2 3s infinite alternate;
+  }
+  
+
+@keyframes move1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+  transform: rotate(180deg);
+  }
+}
+
+@keyframes move2 {
+ 0% {
+    transform: rotate(180deg);
+  }
+  100% {
+  transform: rotate(-360deg);
+
+
+  }
+}
+
+@keyframes move3 {
+  100% {
+    background: #82C6BD;
+  }
+}
+
+@keyframes move4 {
+  100% {
+  background: #F9F9FA;
+
+  }
+}
+
+@keyframes move5 {
+  100% {
+  transform: rotate(360deg);
+
+
+  }
+}
+
+@keyframes move6 {
+  100% {
+    transform: rotate(-360deg);
+
+  } 
+}

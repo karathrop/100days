@@ -1,0 +1,232 @@
+
+body {
+  background:  #043447;    
+}
+  #line1 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:100px;
+    left:100px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line2 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:100px;
+    left:180px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+  
+  #line3 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:100px;
+    left:260px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line4 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:100px;
+    left:340px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line5 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:180px;
+    left:100px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line6 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:180px;
+    left:180px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line7 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:180px;
+    left:260px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line8 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:180px;
+    left:340px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line9 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:260px;
+    left:100px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line10 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:260px;
+    left:180px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+  
+  #line11 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:260px;
+    left:260px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line12 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:260px;
+    left:340px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line13 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:100px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line14 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:180px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line15 {
+    position: absolute;
+    fill: none;
+    border:5px solid #D1D6D6;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:260px;
+    animation: move2 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line16 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #F8CC58;
+    border-radius: 80px;
+    width: 100px;
+    height: 100px;
+    top:340px;
+    left:340px;
+    animation: move1 3s infinite alternate;
+    z-index: -1;
+  }
+  
+ 
+@keyframes move1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:5px dotted #D1D6D6;
+      transform:  rotate(180deg);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:5px solid #F8CC58;
+      transform:  rotate(180deg);
+  }
+}

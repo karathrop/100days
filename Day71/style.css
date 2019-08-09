@@ -1,0 +1,44 @@
+
+body {
+  background-color: #40403E;
+}
+
+#helix1 {
+  position: absolute;
+  top: 200px;
+  left:100px;
+  animation: spin 2s ease-in-out infinite alternate;
+}
+
+#helix2 {
+  position: absolute;
+  top: 200px;
+  left:200px;
+  animation: spin2 2s ease-in-out infinite alternate;
+}
+
+#helix3 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  animation: spin 2s ease-in-out infinite alternate;
+}
+
+#helix4 {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  animation: spin2 2s ease-in-out infinite alternate;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes spin2 {
+  100% {
+    transform: rotate(-180deg);
+  }
+}

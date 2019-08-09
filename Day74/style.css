@@ -1,0 +1,212 @@
+
+body {
+  background: #719AEF;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.submarine-wrapper {
+  height: 300px;
+  width: 300px;
+  padding: 30px 50px 30px 150px;
+  margin: 0 auto 0 auto;
+  animation: diving-rotate 3s ease-in-out infinite;
+}
+
+.engine {
+  width: 30px;
+  height: 70px;
+  position: absolute;
+  border-radius: 10px;
+  position: absolute;
+  background: linear-gradient(to right, #F3E631, #85C9CB, #E52A3D, #fdeff9);
+  opacity: 0.6;
+  left: 10px;
+  
+}
+
+
+#engine1 {
+  position: absolute;
+  top: 100px;
+  left: 105px;
+  animation: spin 2s ease-in-out infinite;
+}
+
+#engine2 {
+  position: absolute;
+  top: 100px;
+  left: 155px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+#engine3 {
+  position: absolute;
+  top: 100px;
+  left: 205px;
+  animation: spin 2s ease-in-out infinite;
+}
+
+#engine4 {
+  position: absolute;
+  top: 100px;
+  left: 255px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine5 {
+  position: absolute;
+  top: 150px;
+  left: 105px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine6 {
+  position: absolute;
+  top: 150px;
+  left: 155px;
+  animation: spin 2s ease-in-out infinite;
+}
+#engine7 {
+  position: absolute;
+  top: 150px;
+  left: 205px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine8 {
+  position: absolute;
+  top: 150px;
+  left: 255px;
+  animation: spin 2s ease-in-out infinite;
+}
+
+#engine9 {
+  position: absolute;
+  top: 200px;
+  left: 105px;
+  animation: spin 2s ease-in-out infinite;
+}
+
+#engine10 {
+  position: absolute;
+  top: 200px;
+  left: 150px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine11 {
+  position: absolute;
+  top: 200px;
+  left: 205px;
+  animation: spin 2s ease-in-out infinite;
+}
+#engine12 {
+  position: absolute;
+  top: 200px;
+  left: 255px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine13 {
+  position: absolute;
+  top: 250px;
+  left: 105px;
+  animation: spin2 1s ease-in-out infinite alternate;
+}
+
+#engine14 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  animation: spin 2s ease-in-out infinite alternate;
+}
+
+#engine15 {
+  position: absolute;
+  top: 250px;
+  left: 205px;
+  animation: spin2 1s ease-in-out infinite alternate;
+ 
+}
+#engine16 {
+  position: absolute;
+  top: 250px;
+  left: 255px;
+  animation: spin 2s ease-in-out infinite alternate;
+}
+
+
+
+
+@keyframes spin {
+  100% {
+        transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  100% {
+        transform: rotate(-360deg);
+  }
+}
+@-webkit-keyframes leds-off {
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes leds-off {
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes helix-movement {
+  100% {
+    background: linear-gradient(to bottom, #ffffff 50%, #DB9AFB, #ffffff, #DB9AFB 50%);
+    background-size: 100% 20px;
+  }
+}
+@-webkit-keyframes diving {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 15px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+@keyframes diving {
+  0% {
+    margin-top: 5px;
+  }
+  50% {
+    margin-top: 45px;
+  }
+  100% {
+    margin-top: 5px;
+  }
+}
+
+@keyframes diving-rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+  }
+  75% {
+    -webkit-transform: rotate(-2deg);
+            transform: rotate(-2deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+

@@ -1,0 +1,127 @@
+
+body {
+  background:  #3F3D3D;    
+}
+  #line1 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #EFA298;
+    border-radius: 200px;
+    width: 400px;
+    height: 400px;
+    top:100px;
+    left:100px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line2 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #739B83;
+    border-radius: 200px;
+    width: 350px;
+    height: 350px;
+    top:125px;
+    left:125px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+  
+  #line3 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #EFA298;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    top:150px;
+    left:150px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line4 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #739B83;
+    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    top:175px;
+    left:175px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line5 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #EFA298;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    top:195px;
+    left:195px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line6 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #739B83;
+    border-radius: 200px;
+    width: 150px;
+    height: 150px;
+    top:220px;
+    left:220px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+
+  #line7 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #EFA298;
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    top:245px;
+    left:245px;
+    animation: move1 3s infinite alternate;
+    z-index: 1;
+  }
+
+  #line8 {
+    position: absolute;
+    fill: none;
+    border:5px dotted #739B83;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    top:270px;
+    left:270px;
+    animation: move2 3s infinite alternate;
+    z-index: -1;
+  }
+
+@keyframes move1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:10px dotted #D9E7E7;
+      transform:  rotate(180deg);
+  }
+}
+
+@keyframes move2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+      border:10px dotted #4D97A8;
+      transform:  rotate(-180deg);
+  }
+}

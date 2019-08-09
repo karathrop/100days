@@ -1,0 +1,109 @@
+
+body {
+  background-color: #181F3C;
+}
+
+
+.submarine-wrapper {
+  height: 300px;
+  width: 300px;
+  padding: 30px 50px 30px 150px;
+  margin: 0 auto 0 auto;
+}
+
+#helix1 {
+  position: absolute;
+  top: 200px;
+  left:100px;
+}
+
+#helix2 {
+  position: absolute;
+  top: 200px;
+  left:200px;
+}
+
+#helix3 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+#helix4 {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+#helix5 {
+  position: absolute;
+  top: 200px;
+  left:500px;
+}
+
+#helix6 {
+  position: absolute;
+  top: 200px;
+  left:600px;
+}
+
+#helix7 {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+#helix8 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.helix {
+  width: 0;
+  height: 0;
+  opacity: .8;
+  border-style: solid;
+  border-width: 100px 0 100px 173.2px;
+  border-color: transparent transparent transparent background: linear-gradient(to right #e5008d, #ff070b);;
+  animation: triChange1 3s ease-in-out infinite;
+}
+
+.helix2 {
+  width: 0;
+  height: 0;
+  opacity: .8;
+  border-style: solid;
+  border-width: 100px 0 100px 173.2px;
+  border-color: transparent transparent transparent #EF42E2;
+  animation: triChange2 3s ease-in-out infinite;
+}
+
+@keyframes triChange1 {
+    30%{  
+      border-width: 100px 173.2px 100px 0;
+      border-color: transparent #EF42E2 transparent transparent;
+    }
+    60% {
+      border-width: 0 100px 173.2px 100px;
+      border-color: transparent transparent #55D9FC transparent;
+    }
+    90% {
+      border-width: 173.2px 100px 0 100px;
+      border-color: #EF42E2 transparent transparent transparent;
+    }
+  }
+
+@keyframes triChange2 {
+    30%{  
+        border-width: 100px 173.2px 100px 0;
+        border-color: transparent #55D9FC transparent transparent;
+      }
+      60% {
+        border-width: 0 100px 173.2px 100px;
+        border-color: transparent transparent #EF42E2 transparent;
+      }
+      90% {
+        border-width: 173.2px 100px 0 100px;
+        border-color: #55D9FC transparent transparent transparent;
+      }
+    }

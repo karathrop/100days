@@ -1,0 +1,94 @@
+
+body {
+  background-color: #313131;
+}
+
+
+.submarine-wrapper {
+  height: 300px;
+  width: 300px;
+  padding: 30px 50px 30px 150px;
+  margin: 0 auto 0 auto;
+}
+
+#helix1 {
+  position: absolute;
+  top: 200px;
+  left:100px;
+}
+
+#helix2 {
+  position: absolute;
+  top: 200px;
+  left:200px;
+}
+
+#helix3 {
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+#helix4 {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+}
+
+#helix5 {
+  position: absolute;
+  top: 200px;
+  left:500px;
+}
+
+#helix6 {
+  position: absolute;
+  top: 200px;
+  left:600px;
+}
+
+#helix7 {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+
+#helix8 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+}
+.helix {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background: linear-gradient(to bottom, #00c3ff, #ffff1c 10%);
+  background-size: 50% 20px;
+  animation: helix-movement 1.5s ease-in-out infinite alternate;
+}
+
+.helix2 {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(to right, #f4c4f3, #fc67fa 10%);
+  background-size: 50% 20px;
+  animation: helix-movement2 1.5s ease-in-out infinite alternate;
+}
+
+
+@keyframes helix-movement {
+  100% {
+    background: linear-gradient(to left, #00c3ff 40%, #ffff1c 40%);
+    transform: rotate(360deg);
+    background-size: 10% 40px;
+  }
+}
+
+
+@keyframes helix-movement2 {
+  100% {
+    background: linear-gradient(to right, #f4c4f3 40%, #fc67fa 40%);
+    transform: rotate(-360deg);
+    background-size: 10% 40px;
+  }
+}
