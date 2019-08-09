@@ -1,0 +1,141 @@
+
+body {
+  background: #9A659F;    
+}
+  
+  #shape1 {
+    background: #F8A4A5;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top:100px;
+    left:100px;
+    animation: move1 2s infinite alternate;
+    z-index: 1;
+  }
+
+  #shape2 {
+    background: #B4D3B8;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top:100px;
+    left:200px;
+    animation: move2 1s infinite alternate;
+  }
+
+  #shape3 {
+    background: #F8A4A5;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top:100px;
+    left:300px;
+    animation: move2 2s infinite alternate;
+    z-index: 1;
+  }
+
+  #shape4 {
+    background: #B4D3B8;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top:100px;
+    left:400px;
+    animation: move2 1s infinite alternate;
+  }
+
+  #shape5 {
+    background: #F8A4A5;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top:100px;
+    left:500px;
+    animation: move1 2s infinite alternate;
+    z-index: 1;
+  }
+
+  #shape6 {
+    background: #86B9F4;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top:200px;
+    left:100px;
+    animation: move1 2s infinite alternate;
+  }
+
+  
+  #shape7 {
+    background: #FECC6F;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top:200px;
+    left:200px;
+    animation: move2 2s infinite alternate;
+    z-index: 1;
+
+  }
+
+  #shape8 {
+    background: #86B9F4;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top:200px;
+    left:300px;
+    animation: move2 1s infinite alternate;
+    z-index: 0;
+  }
+
+  #shape9 {
+    background: #FECC6F;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    position: absolute;
+    top:200px;
+    left:400px;
+    animation: move1 2s infinite alternate;
+    z-index: 1;
+  }
+
+  #shape10 {
+    background: #86B9F4;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    position: absolute;
+    top:200px;
+    left:500px;
+    animation: move1 2s infinite alternate;
+    z-index: 0;
+  }
+
+@keyframes move1 {
+
+  100% {
+    transform: rotate(180deg);
+    transform: scale(4);
+  }
+
+}
+@keyframes move2 {
+
+  100% {
+    transform: rotate(180deg);
+    transform: scale(-4);
+  }
+
+}
+
